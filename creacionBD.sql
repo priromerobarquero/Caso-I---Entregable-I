@@ -1221,7 +1221,7 @@ CREATE TABLE IF NOT EXISTS `appassistant`.`apptransactions` (
   `date` DATETIME NOT NULL,
   `postTime` TIME NOT NULL,
   `refNumber` VARCHAR(50) NOT NULL,
-  `checksum` VARBINARY(50) NOT NULL,
+  `checksum` VARBINARY(64) NOT NULL,
   `convertedAmount` FLOAT NOT NULL,
   `appUsersid` INT NOT NULL,
   `appPagos_pagoId` BIGINT NOT NULL,
