@@ -59,16 +59,7 @@ BEGIN
 	WHILE @countUsers > 0 DO
 		
         -- agrego el ID
-		SET @appUserid = CONCAT(
-			FLOOR(0 + RAND() * 8),  -- Primer dígito aleatorio entre 0 y 7
-			FLOOR(0 + RAND() * 8),  
-			FLOOR(0 + RAND() * 8),  
-			FLOOR(0 + RAND() * 8),  
-			FLOOR(0 + RAND() * 8),  
-			FLOOR(0 + RAND() * 8),  
-			FLOOR(0 + RAND() * 8),  
-			FLOOR(0 + RAND() * 8), 
-			FLOOR(0 + RAND() * 8));
+		SET @appUserid = @countUsers;
 
 		-- Agregamos nombre y apellido
         SET @firstName = "";
@@ -89,9 +80,9 @@ BEGIN
         -- Agregamos fecha de nacimiento 
         SET @fechaNacimiento = DATE_SUB(NOW(), INTERVAL FLOOR(RAND() * 10950) DAY);
         
-        INSERT INTO AppUsers (appUsersid, firstName, lastName, `password`, fechaNacimiento, enabled, empresaId, contact)
+        INSERT INTO AppUsers (appUsersid, firstName, lastName, `password`, fechaNacimiento, enabled, empresaId, appCountryId, contact)
         VALUES
-			(@appUserid, @firstName, @lastName, "NA", @fechaNacimiento, 1, NULL, @contact);
+			(@appUserid, @firstName, @lastName, "NA", @fechaNacimiento, 1, NULL, FLOOR(1 + (RAND() * 4)) , @contact);
             
 		SET @countUsers = @countUsers - 1;
         
@@ -102,13 +93,6 @@ DELIMITER ;
 
 call LlenarUsers();
 
--- Agregando países
-SET SQL_SAFE_UPDATES = 0;
-
-UPDATE appUsers 
-SET appCountryId = FLOOR(1 + (RAND() * 4));
-
-SET SQL_SAFE_UPDATES = 1;
 
 -- --------------- Tablas relacionadas a Direcciones ---------------
 
