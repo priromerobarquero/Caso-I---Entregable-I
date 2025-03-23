@@ -8,3 +8,11 @@
 ##### Bases de Datos I
 ##### I Ciclo, 2025
 ---
+#### Adjuntos
+
+##### Script creacion Base de datos:
+##### Llenado de datos :
+##### Consulta 1:
+##### Consulta 2:
+##### Consulta 3:
+##### Consulta 4:
