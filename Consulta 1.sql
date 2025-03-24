@@ -23,4 +23,3 @@ GROUP BY
 ORDER BY 
     TOTAL DESC;
     
-SELECT * FROM appTransactions
