@@ -37,7 +37,6 @@
 
 ##### Data Table Consulta 4.2
 ##### Usuarios con menos uso
-|-----------|--------------|
 | username  | cantidad_uso |
 |-----------|--------------|
 | user99    | 5            |
@@ -55,11 +54,10 @@
 | user31    | 30           |
 | user21    | 35           |
 | user13    | 40           |
-|-----------|--------------|
+
 
 
 ##### Usuarios con más uso
-|-----------|--------------|
 | username  | cantidad_uso |
 |-----------|--------------|
 | user10    | 250          |
@@ -77,7 +75,6 @@
 | user8     | 165          |
 | user14    | 160          |
 | user30    | 155          |
-|-----------|--------------|
 
 ##### Data Table Consulta 4.3
 
