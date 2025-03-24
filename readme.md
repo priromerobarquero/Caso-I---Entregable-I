@@ -35,7 +35,25 @@
 | Daniel   | Guerrero   | Daniel_@gmail.com   | Costa Rica      | 78120   |
 
 
+##### Data Table Consulta 4.2
 
+
+##### Data Table Consulta 4.3
+
+
+##### Data Table Consulta 4.4
+
+| EVENTO                          | TOTAL_OCURRENCIAS |  INICIO              | FINAL                | PRECISIÓN | RAZÓN FINALIZACION   |
+|---------------------------------|-------------------|----------------------|----------------------|-----------|----------------------|
+| Respuestas contradictorias      | 83                | 2024-06-02 02:06:00  | 2025-03-18 08:47:00  | Baja      | Tarea deficiente     |
+| Desviación de contexto          | 74                | 2024-06-12 06:05:00  | 2025-03-17 12:34:00  | Baja      | Tarea deficiente     |
+| Alucinación                     | 72                | 2024-06-01 17:07:00  | 2025-03-20 22:43:00  | Baja      | Tarea deficiente     |
+| Error de interpretación         | 72                | 2024-06-01 05:41:00  | 2025-03-24 11:18:00  | Baja      | Tarea deficiente     |
+| Respuesta ambigua               | 70                | 2024-06-05 13:25:00  | 2025-03-24 12:40:00  | Baja      | Tarea deficiente     |
+| Falta de respuestas relevantes  | 68                | 2024-06-02 00:35:00  | 2025-03-22 20:12:00  | Baja      | Tarea deficiente     |
+
+
+--- 
 #### Adjuntos
 
 ##### Script creacion Base de datos:
