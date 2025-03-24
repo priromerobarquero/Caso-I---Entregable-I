@@ -44,22 +44,22 @@
 
 
 ##### Data Table Consulta 4.2
-nombre_completo        | email
---------------------------------------------
-Juan Pérez             | juan.perez@email.com
-Ana López              | ana.lopez@email.com
-Luis García            | luis.garcia@email.com
-Marta Sánchez          | marta.sanchez@email.com
-Carlos Rodríguez       | carlos.rodriguez@email.com
-Sofía Martínez         | sofia.martinez@email.com
-Pablo González         | pablo.gonzalez@email.com
-Laura Fernández        | laura.fernandez@email.com
-Antonio García         | antonio.garcia@email.com
-Isabel Torres          | isabel.torres@email.com
-Ricardo Herrera        | ricardo.herrera@email.com
-Lucía Ruiz             | lucia.ruiz@email.com
-David Pérez            | david.perez@email.com
-Eva Morales            | eva.morales@email.com
+|nombre_completo        | email|
+|--------------------------------------------|
+|Juan Pérez             | juan.perez@email.com|
+|Ana López              | ana.lopez@email.com|
+|Luis García            | luis.garcia@email.com|
+|Marta Sánchez          | marta.sanchez@email.com|
+|Carlos Rodríguez       | carlos.rodriguez@email.com|
+|Sofía Martínez         | sofia.martinez@email.com|
+|Pablo González         | pablo.gonzalez@email.com|
+|Laura Fernández        | laura.fernandez@email.com|
+|Antonio García         | antonio.garcia@email.com|
+|Isabel Torres          | isabel.torres@email.com|
+|Ricardo Herrera        | ricardo.herrera@email.com|
+|Lucía Ruiz             | lucia.ruiz@email.com|
+|David Pérez            | david.perez@email.com|
+|Eva Morales            | eva.morales@email.com|
 
 ##### Data Table Consulta 4.3
 ##### Usuarios con menos uso
