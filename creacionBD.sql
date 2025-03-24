@@ -112,6 +112,7 @@ CREATE TABLE IF NOT EXISTS `appassistant`.`apphelpnotification` (
   `tittle` VARCHAR(30) NOT NULL,
   `message` VARCHAR(100) NOT NULL,
   `notificationStatusId` INT NOT NULL,
+  `apperroresiaid` INT NULL,
   PRIMARY KEY (`helpNotificationId`),
   INDEX `fk_appHelpNotification_appNotificationStatus1_idx` (`notificationStatusId` ASC) VISIBLE,
   CONSTRAINT `fk_appHelpNotification_appNotificationStatus1`
@@ -575,7 +576,7 @@ CREATE TABLE IF NOT EXISTS `appassistant`.`apptranscripcionia` (
   `tamaño` FLOAT NOT NULL,
   `finished` BIT(1) NOT NULL DEFAULT b'0',
   `mediaFileId` INT NOT NULL,
-  `chatAnalysisId` INT NOT NULL,
+  `chatAnalysisId` INT NULL,
   PRIMARY KEY (`transcripcionAIId`),
   INDEX `fk_appTranscripcionIA_appMediaFiles1_idx` (`mediaFileId` ASC) VISIBLE,
   INDEX `fk_appTranscripcionIA_appIAFoundData1_idx` (`chatAnalysisId` ASC) VISIBLE,
