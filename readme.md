@@ -8,6 +8,14 @@
 ##### Bases de Datos I
 ##### I Ciclo, 2025
 ---
+### Adjuntos
+
+##### Diseño de la Base de datos: [Diagrama de workbench]https://github.com/priromerobarquero/Caso-I---Entregable-I/blob/main/dise%C3%B1oEntregable2.pdf
+##### Script creacion Base de datos: [Script creacion BD]https://github.com/priromerobarquero/Caso-I---Entregable-I/blob/main/creacionBD.sql
+##### Llenado de datos : [Llenado]https://github.com/priromerobarquero/Caso-I---Entregable-I/blob/main/scriptllenados.sql
+##### Script Consultas: [Consultas]https://github.com/priromerobarquero/Caso-I---Entregable-I/blob/main/consultas.sql
+
+--- 
 ##### Data Table Consulta 4.1
 
 |NOMBRE    | APELLIDO   | EMAIL               | COUNTRY         | TOTAL   |
@@ -90,11 +98,3 @@
 | Respuesta ambigua               | 70                | 2024-06-05 13:25:00  | 2025-03-24 12:40:00  | Baja      | Tarea deficiente     |
 | Falta de respuestas relevantes  | 68                | 2024-06-02 00:35:00  | 2025-03-22 20:12:00  | Baja      | Tarea deficiente     |
 
-
---- 
-#### Adjuntos
-
-##### Diseño de la Base de datos 
-##### Script creacion Base de datos:
-##### Llenado de datos :
-##### Consultas:
