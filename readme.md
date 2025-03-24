@@ -10,10 +10,10 @@
 ---
 ### Adjuntos
 
-##### Diseño de la Base de datos: [Diagrama de workbench]https://github.com/priromerobarquero/Caso-I---Entregable-I/blob/main/dise%C3%B1oEntregable2.pdf
-##### Script creacion Base de datos: [Script creacion BD]https://github.com/priromerobarquero/Caso-I---Entregable-I/blob/main/creacionBD.sql
-##### Llenado de datos : [Llenado]https://github.com/priromerobarquero/Caso-I---Entregable-I/blob/main/scriptllenados.sql
-##### Script Consultas: [Consultas]https://github.com/priromerobarquero/Caso-I---Entregable-I/blob/main/consultas.sql
+##### Diseño de la Base de datos: [Diagrama de workbench](https://github.com/priromerobarquero/Caso-I---Entregable-I/blob/main/dise%C3%B1oEntregable2.pdf)
+##### Script creacion Base de datos: [Script creacion BD](https://github.com/priromerobarquero/Caso-I---Entregable-I/blob/main/creacionBD.sql)
+##### Llenado de datos : [Llenado](https://github.com/priromerobarquero/Caso-I---Entregable-I/blob/main/scriptllenados.sql)
+##### Script Consultas: [Consultas](https://github.com/priromerobarquero/Caso-I---Entregable-I/blob/main/consultas.sql)
 
 --- 
 ##### Data Table Consulta 4.1
